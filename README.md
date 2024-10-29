@@ -9,5 +9,5 @@
 ```
 $ cd example-styled-components-package && yarn && yarn build && yalc publish
 $ cd vite-remote && yarn && yarn dev
-$ cd vite-host && yarn && yarn dev
+$ cd vite-host && yalc add example-styled-components-package && yarn && yarn dev
 ```
