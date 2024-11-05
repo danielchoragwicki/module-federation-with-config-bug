@@ -24,7 +24,7 @@ export default defineConfig({
         'react/': {
           requiredVersion: '18',
         },
-        'styled-components': { singleton: true },
+        // 'styled-components': { singleton: true },
       },
       runtimePlugins: ['./src/mfPlugins'],
     }),

@@ -20,7 +20,7 @@ export const InternalButtonElement = styled.button`
 export default function () {
   return (
     <div>
-      <ExampleButtonElement>Internal Button Element</ExampleButtonElement>
+      <InternalButtonElement>Internal Button Element</InternalButtonElement>
       <ExampleButton />
       <Suspense fallback={<div>Loading...</div>}>
         <ButtonFromRemote />
